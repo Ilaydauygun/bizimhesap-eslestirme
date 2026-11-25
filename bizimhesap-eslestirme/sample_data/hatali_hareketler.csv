@@ -1,0 +1,5 @@
+﻿tarih;yon;tutar;para_birimi;aciklama;hesap_iban;kategori
+31.31.2026;Giriş;100,00;TRY;geçersiz tarih;TR000000000000000000000001;Ödeme
+10.11.2026;Borç;100,00;TRY;yön belirsiz;TR000000000000000000000001;Ödeme
+10.11.2026;Giriş;yüz lira;TRY;geçersiz tutar;TR000000000000000000000001;Ödeme
+10.11.2026;Giriş;100,00;USD;para birimi uyuşmuyor;TR000000000000000000000001;Ödeme

@@ -1,0 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/bizim.css";
+import App from "./App";
+import { ToastProvider } from "./components/Toast";
+import ErrorBoundary from "./components/ErrorBoundary";
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode><ErrorBoundary><BrowserRouter><ToastProvider><App /></ToastProvider></BrowserRouter></ErrorBoundary></React.StrictMode>
+);
